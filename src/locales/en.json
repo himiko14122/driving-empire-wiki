@@ -852,5 +852,6 @@
   "tuning_boatSpeed_desc": "Propeller and hull tuning for maximum open-water velocity with Brunswick craft.",
   "tuning_stat_topSpeed": "Top Speed",
   "tuning_stat_handling": "Handling",
-  "tuning_stat_torque": "Torque"
+  "tuning_stat_torque": "Torque",
+  "home_cta_guide": "Explore All Guides"
 }

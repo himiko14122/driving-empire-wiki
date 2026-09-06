@@ -852,5 +852,6 @@
   "tuning_boatSpeed_desc": "Ajuste de hélice e casco para velocidade máxima em águas abertas com embarcações Brunswick.",
   "tuning_stat_topSpeed": "Velocidade Máxima",
   "tuning_stat_handling": "Manuseio",
-  "tuning_stat_torque": "Torque"
+  "tuning_stat_torque": "Torque",
+  "home_cta_guide": "Explorar Todos os Guias"
 }

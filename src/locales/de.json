@@ -852,5 +852,6 @@
   "tuning_boatSpeed_desc": "Propeller- und Rumpf-Tuning für maximale Geschwindigkeit auf offenem Wasser mit Brunswick-Booten.",
   "tuning_stat_topSpeed": "Höchstgeschwindigkeit",
   "tuning_stat_handling": "Handling",
-  "tuning_stat_torque": "Drehmoment"
+  "tuning_stat_torque": "Drehmoment",
+  "home_cta_guide": "Alle Anleitungen erkunden"
 }

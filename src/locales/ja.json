@@ -852,5 +852,6 @@
   "tuning_boatSpeed_desc": "Brunswick製の船舶で、オープンウォーターでの最高速度を実現するプロペラとハルのチューニングです。",
   "tuning_stat_topSpeed": "最高速度",
   "tuning_stat_handling": "ハンドリング",
-  "tuning_stat_torque": "トルク"
+  "tuning_stat_torque": "トルク",
+  "home_cta_guide": "すべてのガイドを見る"
 }
