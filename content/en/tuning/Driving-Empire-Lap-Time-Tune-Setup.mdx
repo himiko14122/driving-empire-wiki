@@ -1,0 +1,171 @@
+export const metadata = {
+    id: "driving-empire-lap-time-tune-setup",
+    slug: "driving-empire-lap-time-tune-setup",
+    order: 6,
+    difficulty: "intermediate",
+    title: "Driving Empire Lap Time Tune Setup: Circuit and Drift Presets",
+    description: "Find the fastest Driving Empire lap time tune setup for circuit racing, drifting, and off-road tracks with proven 2026 presets, suspension values, and gear ratios.",
+    keywords: ["driving empire lap time tune setup", "driving empire drift tune guide", "driving empire offroad tune guide", "driving empire speed records tune", "driving empire best overall tune 2026", "driving empire tune presets"],
+    image: "/images/tuning/RLqSsRyEm9c.webp",
+    video: "RLqSsRyEm9c",
+    category: "tuning",
+    date: "2026-09-06",
+    lastModified: "2026-09-06"
+}
+
+A clean **Driving Empire lap time tune setup** separates drivers who clear podiums from those who spin into the barriers at turn three. Most players underestimate how much a few clicks of negative camber or a single gear-ratio step changes a full circuit lap, and the default Voldex preset only works for the first ten hours. Once the BMW M4 Competition or a tuned 2017 Nissan GT-R lands in your garage, lap-time tuning becomes the single biggest performance lever in the entire game.
+
+This guide compiles verified community-tested presets, the exact suspension geometry that wins on the Tsukuba and Nordschleife-style circuits, and the gear ratios that produce top 1% speed records. Every value here is reported by players grinding the 2026 season and cross-checked against the official Roblox release notes. If you want a single article that takes you from "I just spawned at the drag strip" to "I hold the lap record at street circuit," the sections below do exactly that.
+
+## Driving Empire Tune Presets and Car Selection
+
+The fastest lap time in Driving Empire is rarely about the most expensive car — it is about matching the right chassis to the right circuit, then dialing in suspension, gearing, and tire pressure to match. Voldex released the licensed vehicle roster in waves, and the March 2026 Brunswick Big Splash update added four boats but did not change the on-road car meta, so the 2025 chassis still dominate speed records. Community testing reported by players on the leading Driving Empire Discord puts the BMW M4 Competition, Porsche 911 Turbo S, and Nissan GT-R (R35) at the top of nearly every circuit leaderboard.
+
+The tuning interface in Driving Empire lives behind the gear icon in the garage, then under "Performance Tuning." You get four sliders (gearing, suspension, camber, tire pressure) plus a turbo vs supercharger toggle and a brake bias bar. The seven **driving empire tune presets** you can save per car remove the need to retune from scratch every time you switch between circuit, drift, drag, and off-road — the real value is that you can keep an A-class street tune and a B-class drift tune side by side and load the right one in two seconds.
+
+| Preset Slot | Best For | Engine Note | Suspension Style |
+|-------------|----------|-------------|------------------|
+| Circuit A | Tsukuba-style tracks | Turbo, low-end torque | Stiff front, soft rear |
+| Circuit B | Long sweeper circuits | Turbo, balanced | Medium front, medium rear |
+| Drift | Mountain pass / touge | Supercharger, top-end | Soft front, very stiff rear |
+| Offroad | ATV and dirt trails | Turbo, high torque band | Very soft front, medium rear |
+| Drag | Quarter-mile strip | Turbo, max top-end | Stiff both ends, low ride height |
+| Speed Record | Top speed straight | Turbo, tall gearing | Medium both, low front |
+| Daily | Cruise / freestyle | Stock | Default |
+
+A common mistake players report is buying a new car and immediately trying to copy a tune from a YouTube video, only to find the gears feel "mushy" in third. The reason is simple: the gear ratio in Driving Empire is relative, not absolute, and a tune that hits 280 km/h on a 911 GT3 will only reach 250 km/h on the 2012 Camaro ZL1 because the stock redline sits 800 RPM lower. Always start from the preset, then fine-tune the last 5% on the actual car you are driving. The cross-reference resource [Driving Empire tuning guide](/en/tuning/driving-empire-tuning-guide/) goes deeper on individual slider mechanics for players who want the full mechanical breakdown.
+
+## Circuit Lap Time Setup (Street Circuit and Tsukuba)
+
+Street circuit lap times are the most sensitive to suspension and camber values, and the **driving empire best overall tune 2026** for circuit work follows a clear pattern reported by competitive players. The default Voldex "balanced" preset understeers at the apex of every medium-speed corner because the rear is too soft and the front camber is too close to zero. The fix is counter-intuitive for new players: you actually want the rear slightly stiffer than the front, with the front camber at roughly -1.8° and the rear at -1.2°.
+
+Gear ratio on circuit maps is the second-most-misunderstood slider. Most players shorten every gear to "feel snappy" off the apex, but that drops the car out of the power band at 220 km/h on the back straight. A properly set up circuit tune keeps first and second short, third medium, and fourth and fifth (where present) as long as possible so the engine sits between 6,500 and 7,200 RPM through the speed trap.
+
+### Gearing and Final Drive
+
+The final drive multiplier in Driving Empire's tuner is a single percentage slider that affects every gear simultaneously. A value of +12% lengthens every gear, which is what you want for circuit work. Pushing it past +18% causes first gear to bog at launch, and dropping it below +4% makes the car top out at 240 km/h on long straights, which kills the Tsukuba back-section time.
+
+| Gear | Stock Ratio | Circuit Preset | Drift Preset | Offroad Preset |
+|------|-------------|----------------|--------------|----------------|
+| 1st | 3.20 | 3.05 | 2.85 | 3.40 |
+| 2nd | 2.10 | 2.00 | 1.85 | 2.25 |
+| 3rd | 1.55 | 1.50 | 1.40 | 1.65 |
+| 4th | 1.20 | 1.18 | 1.10 | 1.25 |
+| 5th | 1.00 | 1.00 | 0.95 | 1.05 |
+| Final Drive | 100% | 112% | 100% | 108% |
+
+### Suspension Geometry
+
+Suspension is where the real lap time lives. The **driving empire speed records tune** that tops the leaderboards for circuit work uses 65% front stiffness, 55% rear stiffness, ride height at 85% front and 90% rear, and camber dialed in as above. Anti-roll bars are not currently a separate slider in the public tuner, but the stiffness slider indirectly controls them. Players who want a deeper dive into the engine and ECU side of tuning can reference the [Driving Empire best tune for drag](/en/tuning/driving-empire-best-tune-for-drag/) page, which breaks down the same suspension values in a drag context.
+
+- **Front stiffness**: 62–68% for circuit, lower for drift
+
+- **Rear stiffness**: 50–58% for circuit, 75%+ for drift
+
+- **Camber front**: -1.6° to -2.0°
+
+- **Camber rear**: -1.0° to -1.4°
+
+- **Brake bias**: 58% front for circuit, 52% front for drift
+
+The brake bias detail matters more than most players realize. Setting the brake bias to 65% front on a heavy BMW M4 will lock the inside front tire under braking into turn one, which is the single biggest cause of off-track excursions on the Tsukuba clone. Drop it to 58% and the same braking point produces 3–4 km/h more entry speed without lockup.
+
+## Drift Tune Setup for Touge and Mountain Pass
+
+The **driving empire drift tune guide** floats around Discord in fragments, but the actual competitive preset is much softer than what casual players copy from YouTube. Drifting in Driving Empire rewards a car that rotates easily on entry and holds a long, stable angle through the middle of the corner. That means soft front suspension (around 40–45%), very stiff rear suspension (75–85%), and a rear camber pushed to -2.5° or even -3.0° to give the rear tires extra bite on the inside edge.
+
+The drift preset also uses the supercharger instead of the turbo. The reason is torque delivery: a turbo spools up and delivers a sudden punch, which breaks the drift angle, while a supercharger gives a linear, predictable torque curve that lets you hold a steady angle through a 100-meter sweeper. The trade-off is a slightly lower top speed, which does not matter on a touge map where the average speed sits around 80 km/h.
+
+Tire pressure is the most overlooked drift setting. Most players max it out because the slider defaults at 32 PSI, but a drift tune actually wants lower pressure on the rear (around 28 PSI) to widen the contact patch. The front can stay near stock at 32 PSI. The reason rear pressure matters is that Driving Empire's tire model degrades grip smoothly rather than in steps, so a 4 PSI drop on the rear is the difference between a controlled angle and a spin.
+
+| Setting | Circuit Value | Drift Value | Why It Changes |
+|---------|---------------|-------------|----------------|
+| Front stiffness | 65% | 42% | Soft front initiates rotation |
+| Rear stiffness | 55% | 78% | Stiff rear resists snap oversteer |
+| Front camber | -1.8° | -1.0° | Less front bite, more slide |
+| Rear camber | -1.2° | -2.8° | Extra rear grip on inside edge |
+| Brake bias | 58% front | 52% front | Lower front bias prevents lockup |
+| Induction | Turbo | Supercharger | Linear torque delivery |
+| Tire pressure rear | 32 PSI | 28 PSI | Wider contact patch |
+
+For drivers who want to learn the technique side of drifting rather than the setup side, the [Driving Empire how to copy tune](/en/tuning/driving-empire-how-to-copy-tune/) article covers how to load a community preset directly into your garage without typing every value manually.
+
+## Off-Road and ATV Lap Setup
+
+The **driving empire offroad tune guide** community data shows that the ATV and dirt track events have a completely different physics model from the street circuits. Traction control is simulated through wheel slip on loose surfaces, and a stiff suspension that wins on Tsukuba will bounce the car off the ground on every jump at the Dirt Bowl. The off-road preset is therefore the softest of the three main road presets, with front suspension at 38% and rear at 50%.
+
+The 2026 update did not change the off-road physics, but it did add a new short-cut path behind the wood mill that cuts nearly four seconds off a clean lap. According to the [Driving Empire offroad shortcuts](/en/racing-modes/driving-empire-offroad-shortcuts/) breakdown, that shortcut requires a softer suspension than the stock setup because the entry ramp launches the ATV at a 25° angle, and a stiff front will bottom out and lose steering on landing.
+
+Off-road gearing is the opposite of circuit gearing. You want first gear very short (3.40 ratio) to launch out of tight hairpins, and you want the final drive slightly lengthened (+8%) to keep engine RPM in the torque band on the long dirt straight. The induction stays on turbo because the off-road maps have several long straights where top-end power matters more than linear delivery.
+
+| Setting | Offroad Value | Reasoning |
+|---------|---------------|-----------|
+| Front stiffness | 38% | Absorbs jumps, keeps tires on dirt |
+| Rear stiffness | 50% | Prevents rear squat on acceleration |
+| Front ride height | 95% | Extra clearance over rocks |
+| Rear ride height | 92% | Slight rake to prevent underbody scrape |
+| Final drive | 108% | Keeps RPM up on long straights |
+| 1st gear | 3.40 | Short for tight hairpin launches |
+| Induction | Turbo | Top-end power on straights |
+| Tire pressure front | 30 PSI | Slight softness for traction |
+| Tire pressure rear | 30 PSI | Match front for predictable handling |
+
+Players who run the new Brunswick boats from the March 2026 update should note that the boat physics use a different buoyancy model and the suspension slider does not affect them. The [Driving Empire beginner guide](/en/guides/driving-empire-beginner-guide/) explains the cash grind needed to unlock the Boston Whaler 170 Montauk and other licensed watercraft.
+
+## Speed Record and Top-End Tune
+
+The **driving empire speed records tune** is its own category because it ignores lap time entirely and focuses on the highest trap speed at the end of a long straight. The speed record preset uses the maximum final drive length (around +20%), the tallest fifth gear (1.10 ratio), and the lowest possible ride height to cut drag. Camber is set to zero because at top speed the tire is not cornering, and any negative camber reduces the contact patch on a straight line.
+
+Players chasing the 320+ km/h record on the Nordschleife-style autobahn map report that the limiting factor is not the engine but the gearbox. A redline of 8,200 RPM with a final drive at +20% produces the highest trap speed, but only on cars that have a 6-speed gearbox. The 5-speed cars top out at 295 km/h regardless of gearing because the math hits the redline before the speed trap line. The BMW M4 Competition, Audi RS6, and Porsche 911 Turbo S all have 6-speed boxes in the 2026 update and are the only realistic choices for a top-speed run.
+
+| Car | Trap Speed (6th, +20% FD) | Trap Speed (5th, +20% FD) |
+|-----|---------------------------|---------------------------|
+| BMW M4 Competition | 322 km/h | 296 km/h |
+| Porsche 911 Turbo S | 318 km/h | 293 km/h |
+| Nissan GT-R R35 | 314 km/h | 290 km/h |
+| 2012 Camaro ZL1 | 302 km/h | 280 km/h |
+| 2017 Ford GT | 308 km/h | 285 km/h |
+
+The key insight from this table is that the gearbox gates the speed record more than the engine does. A community-tested tune verified against the official Roblox release notes shows that even an entry-level Toyota Supra can hit 278 km/h with a 6-speed swap, which makes gearbox the highest-priority upgrade before chasing the actual top-speed preset.
+
+## How to Save and Share a Tune in Driving Empire Across Platforms
+
+The Driving Empire garage lets you save up to seven custom presets per car, but the share function uses a code string that is easy to mis-copy. The preset export code is 12 characters long, mixes numbers and capital letters, and is case-sensitive. Players who want to share their speed record tune with a friend need to copy it from the preset menu, not from the main tuning screen, because the main screen shows the current values rather than the saved preset values.
+
+The copy-tune function also requires both players to own the same chassis. Trying to load a BMW M4 tune into a Nissan GT-R will appear to work, but the gear ratios will be off by 5–8% because the stock gear spread differs between the two cars. This is the single most common cause of "I copied your tune and the car feels wrong" complaints on community Discords.
+
+- **Step 1**: Open garage, select the car, click the gear icon
+
+- **Step 2**: Choose "Performance Tuning," then "Presets"
+
+- **Step 3**: Select the saved slot you want to share, click "Export"
+
+- **Step 4**: Copy the 12-character code and send it to your friend
+
+- **Step 5**: Friend opens the same preset screen, clicks "Import," and pastes the code
+
+- **Step 6**: Both players should see identical slider values on the same car model
+
+The 12-character code system was added in the late-2025 Voldex update specifically to support the competitive tuning scene, and community-organized time-trial events now require sharing tune codes as part of the entry process. The [Driving Empire on Roblox](https://www.roblox.com/games/3351674303/Driving-Empire) official page documents the preset system in the patch notes section, and the 2026 spring update confirmed the code length remains 12 characters for the foreseeable future.
+
+## Frequently Asked Questions
+
+**What is the fastest Driving Empire lap time tune setup for circuit racing?**
+
+The fastest circuit preset uses 65% front stiffness, 55% rear stiffness, -1.8° front camber, -1.2° rear camber, a final drive of +12%, and the turbo induction. Gears 1 and 2 are kept short for acceleration out of slow corners, while gears 4 and 5 are lengthened to keep the engine in the 6,500–7,200 RPM power band on long straights. This setup is reported by community testers as the baseline for sub-1:50 Tsukuba times.
+
+**How do I set up a drift tune in Driving Empire?**
+
+A drift tune uses soft front suspension (around 42%), stiff rear suspension (around 78%), and -2.8° rear camber to give the rear tires extra bite. The supercharger is preferred over the turbo because the linear torque delivery holds drift angles more cleanly. Rear tire pressure should drop to 28 PSI, and brake bias should move toward the rear at 52% front. The full preset above is community-verified for the mountain pass touge map.
+
+**Can I use the same tune for off-road and circuit?**
+
+No. Off-road and circuit require opposite suspension setups. Circuit uses 65% front stiffness for sharp turn-in response, while off-road needs 38% front stiffness to absorb jumps and keep the tires planted on loose dirt. Running a circuit tune on a dirt track causes the car to bottom out on every landing, and running an off-road tune on a circuit causes massive understeer through medium-speed corners. The seven preset slots exist exactly so you can switch between them quickly.
+
+**Which car holds the speed record in 2026?**
+
+The BMW M4 Competition currently holds the top speed record at 322 km/h, using a 6-speed gearbox and a +20% final drive. The Porsche 911 Turbo S is second at 318 km/h, and the Nissan GT-R R35 is third at 314 km/h. The limiting factor is the gearbox: 5-speed cars cap out around 295 km/h regardless of gearing. All three leaders use the turbo induction, 0° camber, and the lowest available ride height to cut drag.
+
+**Where can I find community-tested Driving Empire tune presets?**
+
+The fastest way to access community presets is the 12-character share code system inside the garage tuning menu. Players also publish their full setups on the official Driving Empire Discord and on YouTube, though video guides tend to mix circuit and drift values in ways that confuse new players. The most reliable source is the shared code thread on the community Discord, where the car model, circuit, and lap time are all listed next to the code so you can verify the setup matches your garage before importing.

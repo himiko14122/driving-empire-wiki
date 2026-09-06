@@ -1,0 +1,11 @@
+{
+  "locale": "es",
+  "note": "must-translate keys that the LLM left in English after retry; require human/agent handling",
+  "untranslated": {
+    "home_hero_table_rank": "#",
+    "home_item_table_rank": "#",
+    "category_feature_guides_html": "<table><thead><tr><th>Guide Type</th><th>Focus</th><th>Best For</th></tr></thead><tbody><tr><td>Beginner / How to Play</td><td>First summon, first world, basic combat</td><td>New players in the first hour</td></tr><tr><td>Leveling &amp; Progression</td><td>XP routes, world order, power checks</td><td>Players stuck on a level curve</td></tr><tr><td>Gems &amp; Economy</td><td>Income sources, spending priorities</td><td>Free-to-play and savers</td></tr><tr><td>Co-op &amp; Team Building</td><td>Shared rewards, comps, friend play</td><td>Group grinders and raiders</td></tr></tbody></table>",
+    "category_stat_tier-list_0_value": "S / A / B / C",
+    "category_feature_items_html": "<table><thead><tr><th>Item</th><th>Type</th><th>How to Get</th><th>Best Use</th></tr></thead><tbody><tr><td>Gems</td><td>Premium currency</td><td>Codes, quests, challenges</td><td>Summons &amp; upgrades</td></tr><tr><td>Potions</td><td>Consumable buff</td><td>Chests, codes, events</td><td>Temporary power boosts</td></tr><tr><td>Vital Beans</td><td>Recovery item</td><td>Drops, chests</td><td>Extending grind uptime</td></tr><tr><td>Chests</td><td>Loot box</td><td>Codes, challenges</td><td>Bonus loot &amp; potions</td></tr><tr><td>Skill Reset</td><td>Utility item</td><td>Rewards, events</td><td>Re-specing heroes</td></tr></tbody></table>"
+  }
+}

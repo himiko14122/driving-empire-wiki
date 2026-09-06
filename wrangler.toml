@@ -1,0 +1,11 @@
+name = "driving-empire-wiki"
+main = "_worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./out"
+binding = "ASSETS"
+
+# Custom domains (drivingempirewiki.wiki + www.drivingempirewiki.wiki) bound via
+# Cloudflare Workers Domains API. wrangler does not support [[domains]] top-level
+# field, so the binding is managed through the API.

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Driving Empire Wiki logo — original DE monogram racing badge (dark navy badge, white DE letters, red-orange diagonal accent) -->
+  <defs>
+    <linearBadge id="badgeBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1426"/>
+      <stop offset="100%" stop-color="#142240"/>
+    </linearBadge>
+  </defs>
+  <!-- Circular racing badge background -->
+  <circle cx="256" cy="256" r="240" fill="#0B1426" stroke="#2A3D66" stroke-width="12"/>
+  <!-- Inner hexagonal ring -->
+  <polygon points="256,48 433,148 433,364 256,464 79,364 79,148" fill="none" stroke="#E8442E" stroke-width="8"/>
+  <!-- DE monogram -->
+  <text x="256" y="300" font-family="Arial Black, Arial, sans-serif" font-size="200" font-weight="900" text-anchor="middle" fill="#E8ECF4" letter-spacing="-10">DE</text>
+  <!-- Red-orange diagonal accent stripe -->
+  <line x1="80" y1="380" x2="432" y2="132" stroke="#E8442E" stroke-width="18" stroke-linecap="round"/>
+</svg>

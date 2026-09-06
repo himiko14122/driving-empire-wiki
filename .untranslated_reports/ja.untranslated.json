@@ -1,0 +1,7 @@
+{
+  "locale": "ja",
+  "note": "must-translate keys that the LLM left in English after retry; require human/agent handling",
+  "untranslated": {
+    "category_stat_tier-list_1_value": "S / A / B / C"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "locale": "th",
+  "note": "must-translate keys that the LLM left in English after retry; require human/agent handling",
+  "untranslated": {
+    "home_module_gameModes_stat1": "Co-op",
+    "home_hero_table_rank": "#",
+    "home_item_table_rank": "#",
+    "category_stat_tier-list_0_value": "S / A / B / C",
+    "category_stat_game-modes_1_label": "Co-op"
+  }
+}

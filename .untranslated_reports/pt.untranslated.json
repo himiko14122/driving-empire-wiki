@@ -1,0 +1,11 @@
+{
+  "locale": "pt",
+  "note": "must-translate keys that the LLM left in English after retry; require human/agent handling",
+  "untranslated": {
+    "home_vehicle_table_rank": "#",
+    "category_cards_codes_1_subtitle": "2012 Chevrolet Camaro ZL1 — high-performance muscle car",
+    "category_stat_tier-list_1_value": "S / A / B / C",
+    "category_cards_racing-modes_3_f1_value": "Brunswick Corporation boats: Boston Whaler 170 Montauk, Bayliner VR6 Bowrider, Heyday WT-Surf, Benli Super Yacht.",
+    "category_cards_developer_2_f0_value": "Lamborghini, Porsche, Nissan, Toyota, Chevrolet, BMW, Mercedes-AMG, Ford, Honda, Dodge + Brunswick boats."
+  }
+}
